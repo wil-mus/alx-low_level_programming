@@ -25,7 +25,7 @@ int main(void)
 					putchar(o + '0');
 					if (m + n + o != 24)
 					{
-						putchar('.');
+						putchar(',');
 						putchar(' ');
 					}
 				}
