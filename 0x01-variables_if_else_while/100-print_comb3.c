@@ -17,8 +17,8 @@ int main(void)
 		{
 			if (k < l && k != l)
 			{
-				putchar(l + '0');
 				putchar(k + '0');
+				putchar(l + '0');
 				if (k + l != 17)
 				{
 					putchar(',');
