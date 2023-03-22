@@ -8,17 +8,24 @@
 
 int main(void)
 {
-	int count;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	int i;
+	unsigned long int a, b, next, sum;
 
-	for (count = 0 ; count < 50 ; count++)
+	a = 1;
+	b = 2;
+	sum = 0;
+
+	for (i = 1 ; i <= 33 ; a++)
 	{
-		sum = fib1 + fib2;
-		printf("%lu", sum);
-		if (count == 49)
-			printf("\n");
-		else
-			printf(", ");
+		if (a < 4000000 && (a % 2) == 0)
+		{
+			sum = sum + a;
+		}
+		next = a + b;
+		a = b;
+		b = next;
 	}
+	printf("%lu\n", sum);
 	return (0);
+
 }
