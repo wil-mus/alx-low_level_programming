@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_diagonal- print diogonal line
@@ -13,7 +12,7 @@ void print_diagonal(int n)
 {
 	if (n <= 0)
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 	else
 	{
@@ -25,14 +24,14 @@ void print_diagonal(int n)
 			{
 				if (b == a)
 				{
-					putchar('\\');
+					_putchar('\\');
 				}
 				else
 				{
-					putchar(' ');
+					_putchar(' ');
 				}
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
