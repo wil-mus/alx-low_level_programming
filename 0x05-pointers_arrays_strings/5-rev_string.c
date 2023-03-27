@@ -4,7 +4,7 @@
  * rev_string - print string  in reverse
  * @s: string paramater
  *
- * Return: 0
+ * Return: void
  */
 
 void rev_string(char *s)
