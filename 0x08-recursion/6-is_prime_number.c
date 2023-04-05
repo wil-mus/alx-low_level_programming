@@ -24,7 +24,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	while (a * a <= n)
+	if (a * a <= n)
 	{
 		if (n % a == 0 || n % (a + 2) == 0)
 		{
