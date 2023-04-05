@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _is_palindrome: check if the string is palindrome
+ * is_palindrome - check if the string is palindrome
  *
  * @s: string to check
  *
@@ -13,7 +13,7 @@ int is_palindrome(char *s)
 {
 	int len = strlen(s);
 	char *start = s;
-	char *end = s + len -1;
+	char *end = s + len - 1;
 
 	if (len == 0)
 	{
