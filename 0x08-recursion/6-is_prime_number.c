@@ -10,7 +10,7 @@
 
 int is_prime_number(int n)
 {
-	int a = 3, b = 7;
+	int a = 5;
 
 	if (n < 2)
 	{
@@ -26,12 +26,11 @@ int is_prime_number(int n)
 	}
 	while (a * a <= n)
 	{
-		if (n % a == 0)
+		if (n % a == 0 || n % (a + 2) == 0)
 		{
 			return (0);
 		}
-		a += b;
-		b = 10 - b;
+		a += 6;
 	}
 	return (1);
 }
