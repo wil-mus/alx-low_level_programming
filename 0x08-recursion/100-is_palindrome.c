@@ -19,14 +19,15 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
+	if (start < end)
+	{
+		if (*start != *end)
+		{
+			return (0);
+		}
+		start++;
 
-	if (*start != *end)
-	{
-		return (0);
-	}
-	if (len > 2)
-	{
-		return (is_palindrome (start + 1));
+		end--;
 	}
 	return (1);
 }
