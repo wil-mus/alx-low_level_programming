@@ -13,20 +13,20 @@ int is_palindrome(char *s)
 {
 	int len = strlen(s);
 	char *start = s;
-	char *end = s + len - 1;
+	char *end = s + (len - 1);
 
 	if (len == 0)
 	{
 		return (1);
 	}
-	if (start < end)
+
+	if (*start != *end)
 	{
-		if (*start != *end)
-		{
-			return (0);
-		}
-		start++;
-		end--;
+		return (0);
+	}
+	if (len > 2)
+	{
+		return (is_palindrome (start + 1));
 	}
 	return (1);
 }
