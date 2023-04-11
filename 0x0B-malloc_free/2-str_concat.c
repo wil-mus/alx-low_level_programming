@@ -5,7 +5,7 @@
 /**
  * str_concat - function to concatenate two strings
  *
- * @s1: first string 
+ * @s1: first string
  * @s2: string 2
  *
  * Return: ppointer of cancatenated string
