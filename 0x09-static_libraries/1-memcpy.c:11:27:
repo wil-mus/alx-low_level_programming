@@ -1,0 +1,1 @@
+ar *_memcpy(char *dest, *src, unsigned int n)
