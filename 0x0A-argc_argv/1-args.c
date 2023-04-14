@@ -3,7 +3,7 @@
 
 /**
  * main - Entry
- * 
+ *
  * @argc: no of arhuments
  * @argv: pointer of arrays to arguments
  *
@@ -14,6 +14,6 @@ int main(int argc, char *argv[])
 {
 	(void) argv;
 
-	printf("%d\n", argc -1);
+	printf("%d\n", argc - 1);
 	return (0);
 }
