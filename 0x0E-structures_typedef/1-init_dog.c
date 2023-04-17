@@ -4,6 +4,7 @@
 /**
  * init_dog - intiate struct sog type of variable
  *
+ * @d: struct dog pointer
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
