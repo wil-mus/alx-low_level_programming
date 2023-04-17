@@ -4,7 +4,7 @@
 
 /**
  * free_dog - function that frees dog
- * 
+ *
  * @d: paramater
  */
 
