@@ -4,7 +4,7 @@
 
 /**
  * print_all - function that prints anything
- * 
+ *
  * @format: list of argument types passed
  */
 
@@ -18,6 +18,7 @@ void print_all(const char * const format, ...)
 	double d;
 
 	va_list args;
+
 	va_start(args, format);
 
 	b = 0;
@@ -44,7 +45,7 @@ void print_all(const char * const format, ...)
 				{
 					printf("%s(nil)", sep);
 				}
-				else 
+				else
 				{
 					printf("%s%s", sep, str);
 				}
