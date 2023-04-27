@@ -1,10 +1,9 @@
-#inlude "lists.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**
  * print_list - function to print all elements in linked list
  *
- * @list_t:list
  * @h: pointer to list to print
  *
  * Return: If str is NULL, print [0] (nil)
