@@ -4,6 +4,8 @@
  * reverse_listint - function that reverses a linked list
  *
  * @head: pointer to first node
+ *
+ * Return: pointer to first node
  */
 
 listint_t *reverse_listint(listint_t **head)
