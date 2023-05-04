@@ -19,16 +19,19 @@ void print_binary(unsigned long int n)
 	{
 		_putchar('0');
 	}
-	while (s >= 0)
+	else
 	{
-		if ((n >> s) & 1)
+		while (s >= 0)
 		{
-			_putchar('1');
+			if ((n >> s) & 1)
+			{
+				_putchar('1');
+			}
+			else
+			{
+				_putchar('0');
+			}
+			s--;
 		}
-		else
-		{
-			_putchar('0');
-		}
-		s--;
 	}
 }
