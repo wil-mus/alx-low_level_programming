@@ -5,10 +5,9 @@
  * @ht: A pointer to a hash table.
  */
 /*
-1. We’re iterating through the array of linked lists.
-2. For each linked list, we’re iterating through the linked list and freeing each node.
-3. We’re freeing the array of linked lists.
-4. We’re freeing the hash table.
+* We’re iterating through the array of linked lists.
+* freeing the array of linked lists.
+* freeing the hash table.
 */
 void hash_table_delete(hash_table_t *ht)
 {

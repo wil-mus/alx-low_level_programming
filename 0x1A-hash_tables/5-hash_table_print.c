@@ -8,13 +8,14 @@
  *              they appear in the array of the hash table.
  */
 /*
-1. If the hash table is NULL, return.
-2. Print the opening curly brace.
-3. Loop through the array of the hash table.
-4. If the index of the array is not NULL, print the key and value of the node.
-5. If the next node is not NULL, print a comma and a space.
-6. Print the closing curly brace.
+* If the hash table is NULL, return.
+* Print the opening curly brace.
+* Loop through the array of the hash table.
+* If the index of the array is not NULL, print the key and value of the node.
+* If the next node is not NULL, print a comma and a space.
+* Print the closing curly brace.
 */
+
 void hash_table_print(const hash_table_t *ht)
 {
 	hash_node_t *node;
